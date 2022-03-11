@@ -11,6 +11,13 @@ from config import VIKA_TOKEN, VIKA_TABLE, FEISHU_BOT_WEBHOOK
 vika = Vika(VIKA_TOKEN)
 
 
+def _shorten(text, width):
+    if len(text) > width:
+        return text[:width - 3] + '...'
+    else:
+        return text
+
+
 def get_feeds(vika_table):
     datasheet = vika.datasheet(vika_table, field_key="name")
     rss_list = datasheet.records.all()
@@ -38,6 +45,7 @@ def get_feed(rss_url):
             continue
         keys = ['title', 'link', 'published', 'summary', 'author', 'published_parsed', 'tags']
         record = benedict(entry).subset(keys=keys)
+        record['summary'] = _shorten(record['summary'], 200)
         record['tags'] = [tag['term'] for tag in entry.tags]
         records.append(record)
     return records
