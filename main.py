@@ -65,7 +65,8 @@ def run_team():
             continue
         print(config.标题)
         articles = get_feeds(config.vika_table)
-        fs = Feishu(config.feishu_webhook, articles)
+        source = '<a href="https://vika.cn/workbench/{}">{}</a>'.format(config.vika_table, config.标题)
+        fs = Feishu(config.feishu_webhook, articles, source)
         fs.run()
 
 

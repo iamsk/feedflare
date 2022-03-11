@@ -5,9 +5,10 @@ from datetime import date
 
 
 class Feishu(object):
-    def __init__(self, webhook, records):
+    def __init__(self, webhook, records, source):
         self.webhook = webhook
         self.records = records
+        self.source = source
         if not records:
             exit(0)
 
@@ -48,8 +49,8 @@ class Feishu(object):
         articles.append({
             "elements": [
                 {
-                    "content": "💡本次内容同步自 bot，扩展内容请更新数据源！",
-                    "tag": "plain_text"
+                    "content": "💡 扩展内容请更新 {}！".format(self.source),
+                    "tag": "lark_md"
                 }
             ],
             "tag": "note"
@@ -62,5 +63,5 @@ class Feishu(object):
 if __name__ == '__main__':
     # testing
     WEBHOOK_URL = 'https://open.feishu.cn/open-apis/bot/v2/hook/bd78c3f3-ac60-4ba3-b850-19e31f0e9b40'
-    fs = Feishu(WEBHOOK_URL, [])
+    fs = Feishu(WEBHOOK_URL, [], '')
     fs.run()
