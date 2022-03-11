@@ -2,3 +2,4 @@ feedparser
 python-benedict
 requests
 vika
+opml

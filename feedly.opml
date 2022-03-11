@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<opml version="1.0">
+    <head>
+        <title>Cheng subscriptions in feedly Cloud</title>
+    </head>
+    <body>
+        <outline text="热点 - 海外" title="热点 - 海外">
+            <outline type="rss" text="Reid Hoffman" title="Reid Hoffman" xmlUrl="http://reidhoffman.org/feed/" htmlUrl="https://www.reidhoffman.org"/>
+            <outline type="rss" text="Point Nine Capital (德国早期基金)" title="Point Nine Capital (德国早期基金)" xmlUrl="https://medium.com/feed/point-nine-news" htmlUrl="https://medium.com/point-nine-news?source=rss----92bc84a24ea5---4"/>
+            <outline type="rss" text="This is going to be BIG（Brooklyn Bridge Ventures投资人）" title="This is going to be BIG（Brooklyn Bridge Ventures投资人）" xmlUrl="http://feeds.feedburner.com/thisisgoingtobebig" htmlUrl="https://www.thisisgoingtobebig.com/"/>
+            <outline type="rss" text="Version One Ventures" title="Version One Ventures" xmlUrl="http://versionone.vc/feed/" htmlUrl="https://versionone.vc"/>
+            <outline type="rss" text="CB Insights Research" title="CB Insights Research" xmlUrl="http://www.cbinsights.com/blog/feed" htmlUrl="https://www.cbinsights.com/research"/>
+            <outline type="rss" text="David G. Cohen（天使投资人）" title="David G. Cohen（天使投资人）" xmlUrl="http://feeds.feedburner.com/DavidGCohen" htmlUrl="https://davidgcohen.com"/>
+            <outline type="rss" text="MPD（孵化器interplay founder）" title="MPD（孵化器interplay founder）" xmlUrl="http://mpd.me/feed/" htmlUrl="https://mpd.me?source=rss----6ff47d504e38---4"/>
+            <outline type="rss" text="Feld Thoughts（三个投资人创办的专栏）" title="Feld Thoughts（三个投资人创办的专栏）" xmlUrl="http://feeds.feedburner.com/FeldThoughts" htmlUrl="https://feld.com"/>
+            <outline type="rss" text="Bain Capital Ventures - Feed" title="Bain Capital Ventures - Feed" xmlUrl="http://www.baincapitalventures.com/rss-feed/" htmlUrl="https://www.baincapitalventures.com"/>
+            <outline type="rss" text="Bowery Capital" title="Bowery Capital" xmlUrl="http://www.bowerycap.com/feed/" htmlUrl="https://bowerycap.com"/>
+            <outline type="rss" text="B2B SaaS Blog" title="B2B SaaS Blog" xmlUrl="https://blog.getlatka.com/feed/" htmlUrl="https://blog.getlatka.com"/>
+            <outline type="rss" text="Blog – Redpoint Ventures" title="Blog – Redpoint Ventures" xmlUrl="http://feeds.feedburner.com/RedpointBlog" htmlUrl="https://redpoint.com"/>
+            <outline type="rss" text="andrewchen" title="andrewchen" xmlUrl="http://andrewchen.co/feed/" htmlUrl="https://andrewchen.com"/>
+            <outline type="rss" text="Norwest Venture Partners" title="Norwest Venture Partners" xmlUrl="http://nvp-blog.com/index.php/feed/" htmlUrl="https://www.nvp.com"/>
+            <outline type="rss" text="Sequoia Capital" title="Sequoia Capital" xmlUrl="http://sequoiacapital.tumblr.com/rss" htmlUrl="https://sequoiacapital.tumblr.com/"/>
+            <outline type="rss" text="Sam Altman" title="Sam Altman" xmlUrl="http://blog.samaltman.com/posts.atom" htmlUrl="http://blog.samaltman.com"/>
+            <outline type="rss" text="Venture Desktop" title="Venture Desktop" xmlUrl="https://venturedesktop.substack.com/feed/" htmlUrl="https://venturedesktop.substack.com"/>
+            <outline type="rss" text="garry's posthaven" title="garry's posthaven" xmlUrl="http://feeds.feedburner.com/garry" htmlUrl="http://blog.garrytan.com"/>
+            <outline type="rss" text="The Barefoot VC" title="The Barefoot VC" xmlUrl="http://thebarefootvc.com/feed/" htmlUrl="http://thebarefootvc.com"/>
+            <outline type="rss" text="Union Square Ventures" title="Union Square Ventures" xmlUrl="http://www.unionsquareventures.com/feed" htmlUrl="https://www.usv.com"/>
+            <outline type="rss" text="Above the Crowd" title="Above the Crowd" xmlUrl="http://abovethecrowd.com/feed/" htmlUrl="https://abovethecrowd.com"/>
+            <outline type="rss" text="Benedict Evans 互联网独立分析师" title="Benedict Evans 互联网独立分析师" xmlUrl="http://ben-evans.com/benedictevans?format=rss" htmlUrl="https://www.ben-evans.com/benedictevans/"/>
+            <outline type="rss" text="Lightspeed Venture Partners" title="Lightspeed Venture Partners" xmlUrl="http://lsvp.com/feed/" htmlUrl="http://lsvp.com"/>
+            <outline type="rss" text="The Information" title="The Information" xmlUrl="http://www.theinformation.com//feed" htmlUrl="https://www.theinformation.com"/>
+            <outline type="rss" text="VentureBeat" title="VentureBeat" xmlUrl="http://venturebeat.com/feed/" htmlUrl="https://venturebeat.com"/>
+            <outline type="rss" text="Sequoia Capital Publication" title="Sequoia Capital Publication" xmlUrl="https://medium.com/feed/sequoia-capital" htmlUrl="https://medium.com/sequoia-capital?source=rss----39c6a36cab84---4"/>
+            <outline type="rss" text="A Junior VC" title="A Junior VC" xmlUrl="https://ajuniorvc.com/feed/" htmlUrl="https://ajuniorvc.com"/>
+            <outline type="rss" text="Y Combinator Blog" title="Y Combinator Blog" xmlUrl="https://blog.ycombinator.com/feed/" htmlUrl="https://www.ycombinator.com/blog/"/>
+            <outline type="rss" text="Forbes - Entrepreneurs" title="Forbes - Entrepreneurs" xmlUrl="http://www.forbes.com/entrepreneurs/index.xml" htmlUrl="https://www.forbes.com/entrepreneurs/"/>
+            <outline type="rss" text="Both Sides of the Table" title="Both Sides of the Table" xmlUrl="http://feeds.feedburner.com/BothSidesOfTheTable" htmlUrl="https://bothsidesofthetable.com?source=rss----97f98e5df342---4"/>
+            <outline type="rss" text="Steve Blank（知名连续创业者）" title="Steve Blank（知名连续创业者）" xmlUrl="http://steveblank.com/feed/" htmlUrl="https://steveblank.com"/>
+            <outline type="rss" text="Sapphire Ventures Perspectives" title="Sapphire Ventures Perspectives" xmlUrl="https://medium.com/feed/sapphire-ventures-perspectives" htmlUrl="https://medium.com/sapphire-ventures-perspectives?source=rss----49b08ac5c7b---4"/>
+            <outline type="rss" text="Standout Capital" title="Standout Capital" xmlUrl="http://www.standoutcapital.com/feed/" htmlUrl="https://www.standoutcapital.com"/>
+            <outline type="rss" text="Battery Ventures" title="Battery Ventures" xmlUrl="https://www.battery.com/powered/feed/" htmlUrl="https://www.battery.com/powered"/>
+            <outline type="rss" text="Rock Health" title="Rock Health" xmlUrl="http://rockhealth.com/feed/" htmlUrl="https://rockhealth.com"/>
+            <outline type="rss" text="Hunter Walk（Homebrew partner）" title="Hunter Walk（Homebrew partner）" xmlUrl="http://www.hunterwalk.com/feeds/posts/default" htmlUrl="https://hunterwalk.com"/>
+            <outline type="rss" text="NFX" title="NFX" xmlUrl="https://www.nfx.com/feed/" htmlUrl="https://www.nfx.com"/>
+            <outline type="rss" text="Semil Shah Blog（Lightspeed合伙人）" title="Semil Shah Blog（Lightspeed合伙人）" xmlUrl="http://blog.semilshah.com/feed/" htmlUrl="https://semilshah.com"/>
+            <outline type="rss" text="VC Cafe（创投博客）" title="VC Cafe（创投博客）" xmlUrl="http://feeds.feedburner.com/venturecapitalcafe" htmlUrl="https://www.vccafe.com"/>
+            <outline type="rss" text="grayscale_vc" title="grayscale_vc" xmlUrl="https://grayscale.vc/feed" htmlUrl="https://grayscale.vc?source=rss----61a0e076f66c---4"/>
+            <outline type="rss" text="Khosla Ventures" title="Khosla Ventures" xmlUrl="http://www.khoslaventures.com/feed" htmlUrl="https://www.khoslaventures.com"/>
+            <outline type="rss" text="Lenny's Newsletter" title="Lenny's Newsletter" xmlUrl="https://www.lennyrachitsky.com/feed/" htmlUrl="https://www.lennyrachitsky.com"/>
+            <outline type="rss" text="500 Insights" title="500 Insights" xmlUrl="http://500.co/blog/posts/feed/" htmlUrl="https://blog.500.co"/>
+            <outline type="rss" text="Lux Capital" title="Lux Capital" xmlUrl="http://www.luxcapital.com/blog/feed/" htmlUrl="https://luxcapital.com"/>
+            <outline type="rss" text="Lightspeed Venture Partners" title="Lightspeed Venture Partners" xmlUrl="https://medium.com/feed/lightspeed-venture-partners" htmlUrl="https://medium.com/lightspeed-venture-partners?source=rss----190276d5e8de---4"/>
+        </outline>
+        <outline text="投资人blog" title="投资人blog">
+            <outline type="rss" text="Benedict Evans 互联网独立分析师" title="Benedict Evans 互联网独立分析师" xmlUrl="http://ben-evans.com/benedictevans?format=rss" htmlUrl="https://www.ben-evans.com/benedictevans/"/>
+            <outline type="rss" text="Reid Hoffman" title="Reid Hoffman" xmlUrl="http://reidhoffman.org/feed/" htmlUrl="https://www.reidhoffman.org"/>
+            <outline type="rss" text="This is going to be BIG（Brooklyn Bridge Ventures投资人）" title="This is going to be BIG（Brooklyn Bridge Ventures投资人）" xmlUrl="http://feeds.feedburner.com/thisisgoingtobebig" htmlUrl="https://www.thisisgoingtobebig.com/"/>
+            <outline type="rss" text="Tomasz Tunguz" title="Tomasz Tunguz" xmlUrl="http://tomtunguz.com/index.xml" htmlUrl="https://www.tomtunguz.com/"/>
+            <outline type="rss" text="David G. Cohen（天使投资人）" title="David G. Cohen（天使投资人）" xmlUrl="http://feeds.feedburner.com/DavidGCohen" htmlUrl="https://davidgcohen.com"/>
+            <outline type="rss" text="MPD（孵化器interplay founder）" title="MPD（孵化器interplay founder）" xmlUrl="http://mpd.me/feed/" htmlUrl="https://mpd.me?source=rss----6ff47d504e38---4"/>
+            <outline type="rss" text="Feld Thoughts（三个投资人创办的专栏）" title="Feld Thoughts（三个投资人创办的专栏）" xmlUrl="http://feeds.feedburner.com/FeldThoughts" htmlUrl="https://feld.com"/>
+            <outline type="rss" text="Steve Blank（知名连续创业者）" title="Steve Blank（知名连续创业者）" xmlUrl="http://steveblank.com/feed/" htmlUrl="https://steveblank.com"/>
+            <outline type="rss" text="Matt Turck" title="Matt Turck" xmlUrl="http://mattturck.com/feed/" htmlUrl="http://mattturck.com"/>
+            <outline type="rss" text="AVC" title="AVC" xmlUrl="http://feeds.feedburner.com/AVc" htmlUrl="https://avc.com"/>
+            <outline type="rss" text="Ben Horowitz – Andreessen Horowitz" title="Ben Horowitz – Andreessen Horowitz" xmlUrl="https://a16z.com/author/ben-horowitz/feed/" htmlUrl="https://a16z.com"/>
+            <outline type="rss" text="Hunter Walk（Homebrew partner）" title="Hunter Walk（Homebrew partner）" xmlUrl="http://www.hunterwalk.com/feeds/posts/default" htmlUrl="https://hunterwalk.com"/>
+            <outline type="rss" text="Semil Shah Blog（Lightspeed合伙人）" title="Semil Shah Blog（Lightspeed合伙人）" xmlUrl="http://blog.semilshah.com/feed/" htmlUrl="https://semilshah.com"/>
+            <outline type="rss" text="The Barefoot VC" title="The Barefoot VC" xmlUrl="http://thebarefootvc.com/feed/" htmlUrl="http://thebarefootvc.com"/>
+        </outline>
+        <outline text="非美国创投资讯" title="非美国创投资讯">
+            <outline type="rss" text="Inc42 Media（印度）" title="Inc42 Media（印度）" xmlUrl="http://inc42.com/magazine/feed/" htmlUrl="https://inc42.com"/>
+        </outline>
+        <outline text="宏观-海外信息源" title="宏观-海外信息源">
+            <outline type="rss" text="Bloomberg" title="Bloomberg" xmlUrl="http://www.newslookup.com/rss/business/bloomberg.rss" htmlUrl="http://www.bloomberg.com/"/>
+            <outline type="rss" text="World Bank Blogs" title="World Bank Blogs" xmlUrl="https://blogs.worldbank.org/feed/impactevaluations/rss.xml" htmlUrl="https://blogs.worldbank.org/"/>
+            <outline type="rss" text="World Economic Forum | Agenda" title="World Economic Forum | Agenda" xmlUrl="http://www.weforum.org/agenda/archive/feed" htmlUrl="https://www.weforum.org"/>
+            <outline type="rss" text="WSJ.com Video - Economy" title="WSJ.com Video - Economy" xmlUrl="http://feeds.wsjonline.com/wsj/video/economy/feed" htmlUrl="http://www.wsj.com/video"/>
+            <outline type="rss" text="Real Vision Finance" title="Real Vision Finance" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCBH5VZE_Y4F3CMcPIzPEB5A" htmlUrl="https://www.youtube.com/channel/UCBH5VZE_Y4F3CMcPIzPEB5A"/>
+            <outline type="rss" text="KKR" title="KKR" xmlUrl="https://www.kkr.com/rss.xml" htmlUrl="https://www.kkr.com"/>
+            <outline type="rss" text="Real Vision Daily Briefing: Finance &amp; Investing" title="Real Vision Daily Briefing: Finance &amp; Investing" xmlUrl="http://adventuresinfinance.realvision.libsynpro.com/rss" htmlUrl="https://www.realvision.com/podcast"/>
+            <outline type="rss" text="Research &amp; Insights" title="Research &amp; Insights" xmlUrl="https://www.bridgewater.com/research-and-insights.rss" htmlUrl="https://www.bridgewater.com/research-and-insights"/>
+            <outline type="rss" text="FactSet Insight" title="FactSet Insight" xmlUrl="http://insight.factset.com/rss.xml" htmlUrl="https://insight.factset.com"/>
+            <outline type="rss" text="The Curious Investor" title="The Curious Investor" xmlUrl="http://feeds.megaphone.fm/thecuriousinvestor" htmlUrl="https://www.aqr.com/curious"/>
+        </outline>
+        <outline text="SaaS" title="SaaS"/>
+        <outline text="Newsletter - 海外" title="Newsletter - 海外">
+            <outline type="rss" text="TechCrunch" title="TechCrunch" xmlUrl="http://feeds.feedburner.com/TechCrunch/startups" htmlUrl="https://techcrunch.com"/>
+        </outline>
+        <outline text="Podcast" title="Podcast">
+            <outline type="rss" text="Invest Like the Best with Patrick O'Shaughnessy" title="Invest Like the Best with Patrick O'Shaughnessy" xmlUrl="http://investlikethebest.libsyn.com/rss" htmlUrl="https://joincolossus.com/"/>
+            <outline type="rss" text="疯投圈" title="疯投圈" xmlUrl="https://ipn.li/crazycapital/feed" htmlUrl="https://crazy.capital"/>
+            <outline type="rss" text="20VC" title="20VC" xmlUrl="http://www.thetwentyminutevc.com/feed/" htmlUrl="https://www.thetwentyminutevc.com"/>
+            <outline type="rss" text="Masters of Scale with Reid Hoffman" title="Masters of Scale with Reid Hoffman" xmlUrl="https://rss.art19.com/masters-of-scale" htmlUrl="http://www.mastersofscale.com"/>
+            <outline type="rss" text="Acquired" title="Acquired" xmlUrl="http://www.acquired.fm/episodes?format=RSS" htmlUrl="https://acquired.fm"/>
+            <outline type="rss" text="The Meb Faber Show" title="The Meb Faber Show" xmlUrl="http://mebfaber.libsyn.com/rss" htmlUrl="https://mebfaber.com/podcast/"/>
+            <outline type="rss" text="All-In Podcast" title="All-In Podcast" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCESLZhusAkFfsNsApnjF_Cg" htmlUrl="https://www.youtube.com/channel/UCESLZhusAkFfsNsApnjF_Cg"/>
+            <outline type="rss" text="Greymatter" title="Greymatter" xmlUrl="http://feeds.soundcloud.com/users/soundcloud:users:205323254/sounds.rss" htmlUrl="https://www.linkedin.com/company/greylock-partners"/>
+            <outline type="rss" text="MPD（孵化器interplay founder）" title="MPD（孵化器interplay founder）" xmlUrl="http://mpd.me/feed/" htmlUrl="https://mpd.me?source=rss----6ff47d504e38---4"/>
+            <outline type="rss" text="a16z Podcast" title="a16z Podcast" xmlUrl="http://feeds.soundcloud.com/users/soundcloud:users:62921190/sounds.rss" htmlUrl="https://a16z.simplecast.com"/>
+        </outline>
+        <outline text="次要热点feed" title="次要热点feed">
+            <outline type="rss" text="Entrepreneur" title="Entrepreneur" xmlUrl="http://feeds.feedburner.com/entrepreneur/latest" htmlUrl="https://www.entrepreneur.com/latest"/>
+            <outline type="rss" text="Small Business Trends" title="Small Business Trends" xmlUrl="http://feeds.feedburner.com/SmallBusinessTrends" htmlUrl="https://smallbiztrends.com"/>
+            <outline type="rss" text="National Venture Capital Association – NVCA" title="National Venture Capital Association – NVCA" xmlUrl="http://nvca.org/feed/" htmlUrl="https://nvca.org"/>
+            <outline type="rss" text="Stories by Founder Collective on Medium" title="Stories by Founder Collective on Medium" xmlUrl="https://medium.com/feed/@foundercollective" htmlUrl="https://medium.com/@foundercollective?source=rss-f49435c6fa9------2"/>
+            <outline type="rss" text="SaaStr" title="SaaStr" xmlUrl="http://saastr.com/feed/" htmlUrl="https://www.saastr.com"/>
+            <outline type="rss" text="Mark Suster on Medium（Upfront Ventures执行合伙人）" title="Mark Suster on Medium（Upfront Ventures执行合伙人）" xmlUrl="https://medium.com/feed/@msuster" htmlUrl="https://medium.com/@msuster?source=rss-946f534320f7------2"/>
+            <outline type="rss" text="Elad Blog" title="Elad Blog" xmlUrl="http://blog.eladgil.com/feeds/posts/default" htmlUrl="http://blog.eladgil.com/"/>
+        </outline>
+        <outline text="Must Read" title="Must Read"/>
+        <outline text="最新资讯 - 国内" title="最新资讯 - 国内">
+            <outline type="rss" text="虎嗅网" title="虎嗅网" xmlUrl="http://www.huxiu.com/rss/0.xml" htmlUrl="http://www.huxiu.com"/>
+            <outline type="rss" text="雷峰网" title="雷峰网" xmlUrl="http://www.leiphone.com/feed" htmlUrl="https://www.leiphone.com"/>
+            <outline type="rss" text="PingWest品玩" title="PingWest品玩" xmlUrl="http://www.pingwest.com/feed/" htmlUrl="https://www.pingwest.com"/>
+            <outline type="rss" text="InfoQ推荐" title="InfoQ推荐" xmlUrl="https://rsshub.app/infoq/recommend" htmlUrl="https://www.infoq.cn"/>
+            <outline type="rss" text="Engadget Simplified Chinese Summary RSS" title="Engadget Simplified Chinese Summary RSS" xmlUrl="http://cn.engadget.com/rss.xml" htmlUrl="http://cn.engadget.com"/>
+            <outline type="rss" text="IT之家" title="IT之家" xmlUrl="http://www.ithome.com/rss/" htmlUrl="https://www.ithome.com/"/>
+            <outline type="rss" text="Engadget Traditional Chinese Summary RSS" title="Engadget Traditional Chinese Summary RSS" xmlUrl="http://chinese.engadget.com/rss.xml" htmlUrl="http://chinese.engadget.com"/>
+            <outline type="rss" text="少数派" title="少数派" xmlUrl="http://sspai.me/feed" htmlUrl="https://sspai.com"/>
+            <outline type="rss" text="cnBeta.COM RSS订阅" title="cnBeta.COM RSS订阅" xmlUrl="http://www.cnbeta.com/backend.php" htmlUrl="https://www.cnbeta.com"/>
+            <outline type="rss" text="36氪" title="36氪" xmlUrl="http://www.36kr.com/feed" htmlUrl="http://36kr.com"/>
+        </outline>
+        <outline text="投资机构" title="投资机构">
+            <outline type="rss" text="Point Nine Capital (德国早期基金)" title="Point Nine Capital (德国早期基金)" xmlUrl="https://medium.com/feed/point-nine-news" htmlUrl="https://medium.com/point-nine-news?source=rss----92bc84a24ea5---4"/>
+            <outline type="rss" text="Version One Ventures" title="Version One Ventures" xmlUrl="http://versionone.vc/feed/" htmlUrl="https://versionone.vc"/>
+            <outline type="rss" text="Sequoia Capital Publication" title="Sequoia Capital Publication" xmlUrl="https://medium.com/feed/sequoia-capital" htmlUrl="https://medium.com/sequoia-capital?source=rss----39c6a36cab84---4"/>
+            <outline type="rss" text="Y Combinator Blog" title="Y Combinator Blog" xmlUrl="https://blog.ycombinator.com/feed/" htmlUrl="https://www.ycombinator.com/blog/"/>
+            <outline type="rss" text="Andreessen Horowitz" title="Andreessen Horowitz" xmlUrl="https://a16z.com/feed/" htmlUrl="https://a16z.com"/>
+            <outline type="rss" text="Blog – Insight Partners" title="Blog – Insight Partners" xmlUrl="http://www.insightpartners.com/ideas/blog/rss" htmlUrl="https://www.insightpartners.com"/>
+            <outline type="rss" text="Sapphire Ventures Perspectives" title="Sapphire Ventures Perspectives" xmlUrl="https://medium.com/feed/sapphire-ventures-perspectives" htmlUrl="https://medium.com/sapphire-ventures-perspectives?source=rss----49b08ac5c7b---4"/>
+            <outline type="rss" text="Battery Ventures" title="Battery Ventures" xmlUrl="https://www.battery.com/powered/feed/" htmlUrl="https://www.battery.com/powered"/>
+            <outline type="rss" text="Greylock" title="Greylock" xmlUrl="http://www.greylock.com/feed/" htmlUrl="https://greylock.com"/>
+            <outline type="rss" text="Greylock Perspectives" title="Greylock Perspectives" xmlUrl="https://medium.com/feed/greylock-perspectives" htmlUrl="https://news.greylock.com?source=rss----f89b20443665---4"/>
+            <outline type="rss" text="Lux Capital" title="Lux Capital" xmlUrl="http://www.luxcapital.com/blog/feed/" htmlUrl="https://luxcapital.com"/>
+            <outline type="rss" text="Lightspeed Venture Partners" title="Lightspeed Venture Partners" xmlUrl="https://medium.com/feed/lightspeed-venture-partners" htmlUrl="https://medium.com/lightspeed-venture-partners?source=rss----190276d5e8de---4"/>
+            <outline type="rss" text="First Round Review" title="First Round Review" xmlUrl="http://firstround.com/review/feed.xml" htmlUrl="https://review.firstround.com"/>
+            <outline type="rss" text="Union Square Ventures" title="Union Square Ventures" xmlUrl="http://www.unionsquareventures.com/feed" htmlUrl="https://www.usv.com"/>
+            <outline type="rss" text="Blog - NextView Ventures" title="Blog - NextView Ventures" xmlUrl="http://nextviewventures.com/blog/?feed=rss" htmlUrl="https://nextview.vc"/>
+        </outline>
+        <outline text="B2B" title="B2B"/>
+        <outline text="医疗" title="医疗">
+            <outline type="rss" text="Venrock" title="Venrock" xmlUrl="http://www.venrock.com/feed/" htmlUrl="https://www.venrock.com"/>
+            <outline type="rss" text="Rock Health" title="Rock Health" xmlUrl="http://rockhealth.com/feed/" htmlUrl="https://rockhealth.com"/>
+        </outline>
+        <outline text="公众号" title="公众号"/>
+        <outline text="信息安全" title="信息安全">
+            <outline type="rss" text="Schneier on Security" title="Schneier on Security" xmlUrl="http://www.schneier.com/blog/index.rdf" htmlUrl="https://www.schneier.com"/>
+            <outline type="rss" text="Darknet" title="Darknet" xmlUrl="http://feeds.feedburner.com/darknethackers" htmlUrl="https://www.darknet.org.uk"/>
+            <outline type="rss" text="Security Affairs " title="Security Affairs " xmlUrl="http://securityaffairs.co/wordpress/feed" htmlUrl="https://securityaffairs.co/wordpress"/>
+            <outline type="rss" text="RiskIQ" title="RiskIQ" xmlUrl="https://www.riskiq.com/feed/" htmlUrl="https://www.riskiq.com"/>
+            <outline type="rss" text="Secureworks Counter Threat Unit (CTU) Research" title="Secureworks Counter Threat Unit (CTU) Research" xmlUrl="https://www.secureworks.com/rss?feed=research" htmlUrl="https://www.secureworks.com/research"/>
+            <outline type="rss" text="Packet Storm Security" title="Packet Storm Security" xmlUrl="http://packetstormsecurity.org/headlines.xml" htmlUrl="https://packetstormsecurity.com/"/>
+            <outline type="rss" text="Gizmodo Security" title="Gizmodo Security" xmlUrl="http://gizmodo.com/tag/security/rss" htmlUrl="https://gizmodo.com"/>
+            <outline type="rss" text="Threatpost" title="Threatpost" xmlUrl="http://threatpost.com/feed" htmlUrl="https://threatpost.com"/>
+            <outline type="rss" text="Fire Eye Threat Research " title="Fire Eye Threat Research " xmlUrl="http://www.fireeye.com/blog/feed" htmlUrl="http://www.fireeye.com/blog/threat-research.html"/>
+            <outline type="rss" text="TrendLabs Security Intelligence Blog" title="TrendLabs Security Intelligence Blog" xmlUrl="http://feeds.trendmicro.com/Anti-MalwareBlog/" htmlUrl="https://blog.trendmicro.com/trendlabs-security-intelligence"/>
+            <outline type="rss" text="ClearSky Cyber Security" title="ClearSky Cyber Security" xmlUrl="http://www.clearskysec.com/feed/" htmlUrl="https://www.clearskysec.com"/>
+            <outline type="rss" text="Krebs on Security" title="Krebs on Security" xmlUrl="http://krebsonsecurity.com/feed/" htmlUrl="https://krebsonsecurity.com"/>
+            <outline type="rss" text="Dark Reading" title="Dark Reading" xmlUrl="http://www.darkreading.com/rss/all.xml" htmlUrl="https://www.darkreading.com"/>
+            <outline type="rss" text="BleepingComputer" title="BleepingComputer" xmlUrl="http://www.bleepingcomputer.com/feed/" htmlUrl="https://www.bleepingcomputer.com/"/>
+            <outline type="rss" text="The State of Security" title="The State of Security" xmlUrl="http://feeds.feedburner.com/tripwire-state-of-security" htmlUrl="https://www.tripwire.com/state-of-security"/>
+            <outline type="rss" text="Graham Cluley" title="Graham Cluley" xmlUrl="http://feeds.feedburner.com/GrahamCluleysBlog" htmlUrl="https://grahamcluley.com"/>
+            <outline type="rss" text="Securelist" title="Securelist" xmlUrl="https://securelist.com/feed/" htmlUrl="https://securelist.com"/>
+            <outline type="rss" text="ZDNet | Security" title="ZDNet | Security" xmlUrl="http://www.zdnet.com/blog/security/rss" htmlUrl="https://www.zdnet.com/"/>
+            <outline type="rss" text="Trend Micro Research, News and Perspectives" title="Trend Micro Research, News and Perspectives" xmlUrl="http://feeds.trendmicro.com/TrendMicroSimplySecurity" htmlUrl="http://feed.informer.com/digests/G5HRN3DTV4/feeder"/>
+            <outline type="rss" text="Threat analysis" title="Threat analysis" xmlUrl="https://blog.malwarebytes.com/category/threat-analysis/feed/" htmlUrl="https://blog.malwarebytes.com"/>
+            <outline type="rss" text="Security Labs – Qualys Blog" title="Security Labs – Qualys Blog" xmlUrl="https://community.qualys.com/blogs/securitylabs/feeds/posts" htmlUrl="https://blog.qualys.com"/>
+            <outline type="rss" text="The Hacker News" title="The Hacker News" xmlUrl="http://thehackernews.com/feeds/posts/default" htmlUrl="https://thehackernews.com/"/>
+            <outline type="rss" text="CyberScoop" title="CyberScoop" xmlUrl="https://www.cyberscoop.com/feed/" htmlUrl="https://www.cyberscoop.com"/>
+            <outline type="rss" text="SecurityWeek" title="SecurityWeek" xmlUrl="http://feeds.feedburner.com/Securityweek" htmlUrl="https://www.securityweek.com"/>
+            <outline type="rss" text="Blaze's Security Blog" title="Blaze's Security Blog" xmlUrl="http://bartblaze.blogspot.com/feeds/posts/default" htmlUrl="https://bartblaze.blogspot.com/"/>
+            <outline type="rss" text="SophosLabs – Sophos News" title="SophosLabs – Sophos News" xmlUrl="http://blogs.sophos.com/category/sophoslabs/feed/" htmlUrl="https://news.sophos.com/en-us/"/>
+            <outline type="rss" text="Project Zero" title="Project Zero" xmlUrl="http://googleprojectzero.blogspot.com/feeds/posts/default" htmlUrl="https://googleprojectzero.blogspot.com/"/>
+            <outline type="rss" text="360 Netlab Blog - Network Security Research Lab at 360" title="360 Netlab Blog - Network Security Research Lab at 360" xmlUrl="http://blog.netlab.360.com/rss/" htmlUrl="https://blog.netlab.360.com/"/>
+            <outline type="rss" text="AlienVault Labs Blog" title="AlienVault Labs Blog" xmlUrl="http://labs.alienvault.com/labs/index.php/feed/" htmlUrl="https://cybersecurity.att.com/blogs/labs-research"/>
+            <outline type="rss" text="The Register – Security" title="The Register – Security" xmlUrl="http://www.theregister.co.uk/security/headlines.atom" htmlUrl="https://www.theregister.com/security/"/>
+            <outline type="rss" text="Softpedia News / Security" title="Softpedia News / Security" xmlUrl="http://news.softpedia.com/newsRSS/Security-5.xml" htmlUrl="https://news.softpedia.com/"/>
+            <outline type="rss" text="IT Security Guru " title="IT Security Guru " xmlUrl="http://itsecurityguru.org/feed/" htmlUrl="https://www.itsecurityguru.org"/>
+        </outline>
+    </body>
+</opml>

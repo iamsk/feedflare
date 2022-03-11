@@ -18,6 +18,7 @@ def get_feeds(vika_table):
     for rss in rss_list:
         if not all([rss.标题, rss.RSS源]):
             continue
+        print(rss.标题)
         feeds = get_feed(rss.RSS源)
         all_feeds.extend(feeds)
     # todo order by published desc
@@ -28,7 +29,11 @@ def get_feed(rss_url):
     ret = feedparser.parse(rss_url)
     records = []
     for entry in ret.entries[:3]:  # limit to new articles within yesterday
-        dt = datetime.fromtimestamp(mktime(entry.published_parsed))
+        try:
+            dt = datetime.fromtimestamp(mktime(entry.published_parsed))
+        except:
+            # some feeds missed published_parsed, example, https://www.insightpartners.com/blog/rss/
+            continue
         if dt < (datetime.utcnow() - timedelta(days=1)):
             continue
         keys = ['title', 'link', 'published', 'summary', 'author', 'published_parsed', 'tags']
@@ -50,6 +55,7 @@ def run_team():
     for config in configs:
         if not all([config.标题, config.feishu_webhook, config.vika_table]):
             continue
+        print(config.标题)
         articles = get_feeds(config.vika_table)
         fs = Feishu(config.feishu_webhook, articles)
         fs.run()
