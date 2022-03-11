@@ -13,6 +13,27 @@ pip install -r requirements.txt
 ```
 
 ### Usage
+
+copy config.py.tpl to config.py
+
+1. For individual use:
+
+![rss table](rss_table.png)
+
+create your own rss table in vika.cn, and copy the API token and table id to config.py
+
+https://open.feishu.cn/open-apis/bot/v2/hook/xxx
+
+create your own feishu bot, and copy the bot webhook url to config.py
+
 ```shell
 python main.py
+```
+
+2. For team use:
+
+Please read the code for more details.
+
+```shell
+python main.py -t team
 ```
