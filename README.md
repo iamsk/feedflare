@@ -2,6 +2,8 @@
 
 feedflare - distribute feeds to IM
 
+default sync articles within `yesterday` !
+
 ![Feedflare workflow](http://processon.com/chart_image/6225bcc87d9c0836f902f34c.png "Feedflare workflow")
 
 ### Setup
