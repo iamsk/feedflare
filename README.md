@@ -20,11 +20,9 @@ copy config.py.tpl to config.py
 
 ![rss table](rss_table.png)
 
-create your own rss table in vika.cn, and copy the API token and table id to config.py
+create your own table with copying the [RSS template](https://vika.cn/share/shrRC6kNJicmrBXPsLu5q), and copy the vika API token and table id to config.py
 
-https://open.feishu.cn/open-apis/bot/v2/hook/xxx
-
-create your own feishu bot, and copy the bot webhook url to config.py
+create your own feishu bot, and copy the [bot webhook](https://open.feishu.cn/open-apis/bot/v2/hook/xxx) to config.py
 
 ```shell
 python main.py
