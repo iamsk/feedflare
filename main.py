@@ -19,12 +19,11 @@ def get_feeds(vika_table):
     for source in source_list:
         if not all([source.标题, source.RSS源]):
             continue
-        print(source.标题)
-        if source.类型 == 'RSS':
-            feeds = RSS(source.RSS源).get()
-        else:
+        if source.类型 == 'WECHAT':
             feeds = NewRank(source.RSS源).get()
             time.sleep(3)
+        else:
+            feeds = RSS(source.RSS源).get()
         all_feeds.extend(feeds)
     # todo order by published desc
     return all_feeds

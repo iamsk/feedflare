@@ -35,8 +35,8 @@ class Feishu(object):
             article = {
                 "tag": "div",
                 "text": {
-                    "content": "**{}**\n\n[“{}”]({}) - {}".format(record['summary'], record['title'], record['link'],
-                                                                  record['author']),
+                    "content": "**{}**\n[“{}”]({}) - {}".format(record['summary'], record['title'], record['link'],
+                                                                record['author']),
                     "tag": "lark_md"
                 }
             }
