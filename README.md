@@ -27,7 +27,7 @@ create your own table with copying the [RSS template](https://vika.cn/share/shrR
 create your own feishu bot, and copy the [bot webhook](https://open.feishu.cn/open-apis/bot/v2/hook/xxx) to config.py
 
 ```shell
-python main.py
+python main.py -t individual
 ```
 
 2. For team use:

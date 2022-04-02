@@ -1,62 +1,38 @@
 import argparse
-from time import mktime
-from datetime import datetime, timedelta
-import feedparser
-from vika import Vika
-from benedict import benedict
+import time
 
-from feishu import Feishu
+from vika import Vika
+
+from targets.feishu import Feishu
 from config import VIKA_TOKEN, VIKA_TABLE, FEISHU_BOT_WEBHOOK
+from sources.rss import RSS
+from sources.wechat import NewRank
 
 vika = Vika(VIKA_TOKEN)
 
 
-def _shorten(text, width):
-    if len(text) > width:
-        return text[:width - 3] + '...'
-    else:
-        return text
-
-
 def get_feeds(vika_table):
     datasheet = vika.datasheet(vika_table, field_key="name")
-    rss_list = datasheet.records.all()
+    source_list = datasheet.records.all()
     all_feeds = []
-    for rss in rss_list:
-        if not all([rss.标题, rss.RSS源]):
+    for source in source_list:
+        if not all([source.标题, source.RSS源]):
             continue
-        print(rss.标题)
-        feeds = get_feed(rss.RSS源)
+        print(source.标题)
+        if source.类型 == 'RSS':
+            feeds = RSS(source.RSS源).get()
+        else:
+            feeds = NewRank(source.RSS源).get()
+            time.sleep(3)
         all_feeds.extend(feeds)
     # todo order by published desc
     return all_feeds
 
 
-def get_feed(rss_url):
-    try:
-        ret = feedparser.parse(rss_url)
-    except Exception as e:
-        return []
-    records = []
-    for entry in ret.entries[:3]:  # limit to new articles within yesterday
-        try:
-            dt = datetime.fromtimestamp(mktime(entry.published_parsed))
-        except Exception as e:
-            # some feeds missed published_parsed, example, https://www.insightpartners.com/blog/rss/
-            continue
-        if dt < (datetime.utcnow() - timedelta(days=1, minutes=3)):
-            continue
-        keys = ['title', 'link', 'published', 'summary', 'author', 'published_parsed', 'tags']
-        record = benedict(entry).subset(keys=keys)
-        record['summary'] = _shorten(record['summary'], 200)
-        # record['tags'] = [tag['term'] for tag in entry.tags]
-        records.append(record)
-    return records
-
-
 def run_individual():
     articles = get_feeds(VIKA_TABLE)
-    fs = Feishu(FEISHU_BOT_WEBHOOK, articles)
+    source = '<a href="https://vika.cn/workbench/{}">{}</a>'.format(VIKA_TABLE, '信息源')
+    fs = Feishu(FEISHU_BOT_WEBHOOK, articles, source)
     fs.run()
 
 
