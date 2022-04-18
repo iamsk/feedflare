@@ -1,6 +1,6 @@
 from time import mktime
 from datetime import datetime, timedelta
-
+import requests
 import feedparser
 from benedict import benedict
 
@@ -18,7 +18,8 @@ class RSS(object):
 
     def get(self):
         try:
-            ret = feedparser.parse(self.rss_url)
+            resp = requests.get(self.rss_url, timeout=10, verify=False)
+            ret = feedparser.parse(resp.text)
         except Exception as e:
             return []
         records = []

@@ -17,6 +17,7 @@ def get_feeds(vika_table):
     source_list = datasheet.records.all()
     all_feeds = []
     for source in source_list:
+        print(source.RSS源)
         if not all([source.标题, source.RSS源]):
             continue
         if source.类型 == 'WECHAT':
