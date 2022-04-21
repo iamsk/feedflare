@@ -54,7 +54,11 @@ class NewRank(object):
             'xyz': self.xyz
         }
         response = requests.post('https://newrank.cn' + self.path, headers=self.headers, data=data)
-        value = response.json()['value']
+        try:
+            value = response.json()['value']
+        except Exception as e:
+            print(e)
+            return []
         if value == -999:
             return []
         records = []
