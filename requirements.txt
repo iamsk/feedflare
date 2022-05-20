@@ -3,3 +3,4 @@ python-benedict
 requests
 vika
 opml
+inscriptis
