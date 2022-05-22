@@ -9,8 +9,6 @@ class Feishu(object):
         self.webhook = webhook
         self.records = records
         self.source = source
-        if not records:
-            exit(0)
 
     @staticmethod
     def gen_data(articles):
