@@ -24,14 +24,14 @@ class NewRank(object):
         'sec-fetch-dest': 'empty',
         'referer': 'https://newrank.cn/new/readDetial?account=SouthReviews',
         'accept-language': 'zh-CN,zh;q=0.9',
-        'cookie': WECHAT_COOKIE,
     }
     path = '/xdnphb/detail/v1/rank/article/lists'
 
-    def __init__(self, account):
+    def __init__(self, account, cookie):
         self.account = account
         self.nonce = self.get_nonce()
         self.xyz = self.get_xyz()
+        self.headers['cookie'] = cookie
         self.headers['referer'] = 'https://newrank.cn/new/readDetial?account={}'.format(account)
 
     @staticmethod
@@ -73,4 +73,4 @@ class NewRank(object):
 
 
 if __name__ == '__main__':
-    NewRank('SouthReviews').get()
+    NewRank('SouthReviews', WECHAT_COOKIE).get()

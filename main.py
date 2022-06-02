@@ -5,14 +5,14 @@ import time
 from vika import Vika
 
 from targets.feishu import Feishu
-from config import VIKA_TOKEN, VIKA_TABLE, FEISHU_BOT_WEBHOOK
+from config import VIKA_TOKEN, VIKA_TABLE, FEISHU_BOT_WEBHOOK, WECHAT_COOKIE
 from sources.rss import RSS
 from sources.wechat import NewRank
 
 vika = Vika(VIKA_TOKEN)
 
 
-def get_feeds(vika_table):
+def get_feeds(vika_table, cookie):
     datasheet = vika.datasheet(vika_table, field_key="name")
     source_list = datasheet.records.all()
     all_feeds = []
@@ -21,7 +21,7 @@ def get_feeds(vika_table):
         if not all([source.标题, source.RSS源]):
             continue
         if source.类型 == 'WECHAT':
-            feeds = NewRank(source.RSS源).get()
+            feeds = NewRank(source.RSS源, cookie).get()
             time.sleep(3)
         else:
             feeds = RSS(source.RSS源).get()
@@ -31,7 +31,7 @@ def get_feeds(vika_table):
 
 
 def run_individual():
-    articles = get_feeds(VIKA_TABLE)
+    articles = get_feeds(VIKA_TABLE, WECHAT_COOKIE)
     source = '<a href="https://vika.cn/workbench/{}">{}</a>'.format(VIKA_TABLE, '信息源')
     fs = Feishu(FEISHU_BOT_WEBHOOK, articles, source)
     fs.run()
@@ -44,7 +44,7 @@ def run_team():
         if not all([config.标题, config.feishu_webhook, config.vika_table]):
             continue
         print(config.标题)
-        articles = get_feeds(config.vika_table)
+        articles = get_feeds(config.vika_table, config.wechat_cookie)
         if not articles:
             continue
         source = '<a href="https://vika.cn/workbench/{}">{}</a>'.format(config.vika_table, config.标题)
