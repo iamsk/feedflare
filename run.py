@@ -2,8 +2,7 @@ import sys
 from runpy import run_path
 
 # Usage:
-# python run.py thingiverse/search.py __main__
-# python run.py thingiverse/make.py
+# python run.py sources/wechat.py __main__
 
 # print('scripts path: {}'.format(sys.argv))
 if len(sys.argv) > 2:
